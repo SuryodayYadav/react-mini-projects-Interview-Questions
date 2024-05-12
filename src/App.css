@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
 }
 
 .App-logo {
@@ -35,4 +38,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  background-color: burlywood;
+  border: 2px solid orange;
+  border-radius: 1%;
+  margin-top: 2%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.number-text{
+  font-size: xx-large;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
 }
