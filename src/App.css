@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   margin-left: 40%;
+  margin-top: 2%;
 }
 
 .App-logo {
@@ -59,4 +60,29 @@
   font-weight: 800;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
+}
+
+.container{
+  width: 400px;
+  height: 450px;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+}
+
+.otp-input{
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+.otp-index{
+  width: 50px;
+  height: 50px;
+  margin: 2%;
+  font-size: larger;
+  font-weight: 600;
+  line-height: 2;
 }
