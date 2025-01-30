@@ -42,12 +42,13 @@ function GeneratorBox() {
                 </div>
 
                <div className="toggle-container">
-                    <label className="toggle-label">Include Symbol</label>
+                    <label className="toggle-label">Include Special Character</label>
                     <label className="switch">
                         <input {...register('includeSymbol')} type="checkbox" />
                         <span className="slider round"></span>
                     </label>
                 </div>
+                
 
                 <button type="submit" className="submit-btn">Generate Password</button>
             </form>
