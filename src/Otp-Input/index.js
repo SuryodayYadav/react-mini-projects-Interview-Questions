@@ -22,7 +22,7 @@ function OtpInput(){
     return(
         <div className="container">
             <h2>Otp Verification</h2>
-            <p>Enter the 6-digit Otp you have recieved</p>
+            <p>Enter the 6-digit Otp you have recieveddd</p>
             <div className="otp-input">
                 {otp.map((digit, index) => {
                     return(
