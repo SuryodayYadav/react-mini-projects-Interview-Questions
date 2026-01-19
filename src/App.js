@@ -1,8 +1,11 @@
 //import InfiniteScrolling from './Infinite-Scrolling';
 //import OtpInput from "./Otp-Input";
-import ProtoModal from "./modal";
+//import Accordian from "./accordian";
+//import ProtoModal from "./modal";
 //import Modal from "./modal";
 //import Main from "./Password-Generator";
+
+import Accordian from "./components/Accordian";
 
 function App() {
   return (
@@ -10,7 +13,8 @@ function App() {
       {/* <InfiniteScrolling /> */}
       {/* <OtpInput /> */}
       {/* <Main /> */}
-      <ProtoModal />
+      <Accordian />
+      {/* <ProtoModal /> */}
     </div>
   );
 }
