@@ -5,7 +5,9 @@
 //import Modal from "./modal";
 //import Main from "./Password-Generator";
 
-import Accordian from "./components/Accordian";
+//import Accordian from "./components/Accordian";
+import HCLForm from "./hclform/HCLForm";
+import StarRating from "./hclform/StarRating";
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
       {/* <InfiniteScrolling /> */}
       {/* <OtpInput /> */}
       {/* <Main /> */}
-      <Accordian />
+      {/* <Accordian /> */}
+      <HCLForm />
       {/* <ProtoModal /> */}
+      <StarRating />
     </div>
   );
 }
