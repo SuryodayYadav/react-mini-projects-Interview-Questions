@@ -6,8 +6,12 @@
 //import Main from "./Password-Generator";
 
 //import Accordian from "./components/Accordian";
+//import Usage from "./effect/usage";
+import ApiCalling from "./effect/calling";
+import TimeOut from "./effect/timeout";
 import HCLForm from "./hclform/HCLForm";
 import StarRating from "./hclform/StarRating";
+import OutputBasedComp from "./ltm/OutputBased";
 
 function App() {
   return (
@@ -18,6 +22,10 @@ function App() {
       {/* <Accordian /> */}
       <HCLForm />
       {/* <ProtoModal /> */}
+      {/* <Usage /> */}
+      <ApiCalling />
+      <TimeOut />
+      <OutputBasedComp />
       <StarRating />
     </div>
   );
